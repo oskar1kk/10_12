@@ -3,10 +3,19 @@ public class Main {
         func(23,74);
         func(17,24);
         func(17,54);
-
+        func(1,2,5);
+        func('s', 'a');
+    }
+    public static void func (String a, String b) {
+        String rez = a + b;
+        System.out.println("summa ir " + rez);
     }
     public static void func (int a, int b) {
         int res = a + b;
+        System.out.println("summa ir " + res);
+    }
+    public static void func (int a, int b, int c) {
+        int res = a + b + c;
         System.out.println("summa ir " + res);
     }
     public static void batter() {
